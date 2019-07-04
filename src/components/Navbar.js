@@ -10,7 +10,7 @@ const Navbar = () => (
         <a href="https://www.google.com">Contact</a>
       </li>
       <li>
-        <a href="https://wwww.google.com">Projects</a>
+        <a href="https://wwww.google.com">My work</a>
       </li>
     </ul>
   </nav>
