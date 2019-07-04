@@ -112,17 +112,25 @@ a {
 .section-container {
   display: flex;
   flex-direction: row;
-  margin: 100px;
+  margin: 20px;
 }
 #features {
   flex: 1;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+}
+#features div {
+  width: 29%;
+  text-align: justify;
+  margin: 5px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  color: grey;
 }
 #features h4 {
-  width: 50%;
-  margin: auto;
-  color: grey;
+  text-align: center;
 }
 #stack {
   display: flex;
@@ -132,8 +140,7 @@ a {
 
 #stack div {
   display: flex;
-  width: 25%;
-  margin: 20px;
+  width: 33%;
 }
 
 #stack div img {
@@ -141,7 +148,6 @@ a {
 }
 
 #stack div {
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -149,4 +155,24 @@ a {
 #stack div p {
   color: grey;
   text-transform: uppercase;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.projects-container div {
+  display: flex;
+  align-content: center;
+  width: 33%;
+  align-items: center;
 }
