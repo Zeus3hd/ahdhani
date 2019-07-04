@@ -108,3 +108,34 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  margin: 100px;
+}
+#features {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+#features h4 {
+  width: 50%;
+  margin: auto;
+  color: grey;
+}
+#stack {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+#stack div {
+  display: flex;
+  width: 25%;
+  margin: 20px;
+}
+
+#stack div img {
+  width: 50%;
+}
