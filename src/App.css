@@ -139,3 +139,14 @@ a {
 #stack div img {
   width: 50%;
 }
+
+#stack div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#stack div p {
+  color: grey;
+  text-transform: uppercase;
+}
