@@ -126,7 +126,6 @@ nav ul li a:hover {
   text-align: justify;
   padding: 20px;
   box-sizing: border-box;
-  align-self: center;
 }
 #skills-phrase {
   text-align: center;
@@ -137,20 +136,17 @@ nav ul li a:hover {
 .projects-container {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
   margin: 15px;
-  justify-content: center;
 }
 .projects-container div {
   width: 30%;
-  align-items: center;
   text-align: justify;
   display: flex;
   flex-direction: column;
   color: grey;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  margin: 10px;
-  align-self: center;
+  margin: 15px;
+  text-align: center;
 }
 .projects-container div img {
   width: 100%;
@@ -166,4 +162,14 @@ nav ul li a:hover {
 #projects h2 {
   text-align: center;
   color: grey;
+  animation: fade_anim 7s ease-in-out infinite;
+}
+
+@keyframes fade_anim {
+  50% {
+    color: white;
+  }
+  100% {
+    color: grey;
+  }
 }
