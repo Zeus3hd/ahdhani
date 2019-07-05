@@ -41,11 +41,12 @@ nav ul li a:hover {
   filter: saturate(0%);
   filter: hue-rotate(0);
   animation: anim 15s infinite;
-  margin: 10px;
-  padding: 10px;
+  margin: 30px;
+  padding: 20px;
   width: 50%;
-  min-width: 500px;
+  min-width: 30%;
 }
+
 @keyframes anim {
   50% {
     filter: saturate(100%);
@@ -78,14 +79,15 @@ nav ul li a:hover {
   filter: hue-rotate(0);
   animation: anim 5s infinite;
 }
+
 #rect-bottom h2 {
   margin-top: -15px;
   background: linear-gradient(-45deg, #d35585, #91898c);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  width: 100%;
   margin-left: 10px;
+  font-size: 1.5vw;
 }
 #rect-bottom p {
   margin-left: 10px;
@@ -102,6 +104,7 @@ nav ul li a:hover {
 }
 .section-container > div {
   width: 50%;
+  margin: 10%;
 }
 #stack {
   display: flex;
@@ -116,15 +119,12 @@ nav ul li a:hover {
   width: 50%;
 }
 #features {
-  display: flex;
-  flex-wrap: wrap;
   border-right: 1px solid rgb(150, 150, 150);
-  align-content: center;
+  padding: 60px;
 }
 #features div {
-  width: 33%;
   text-align: justify;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
 }
 #skills-phrase {
@@ -162,14 +162,80 @@ nav ul li a:hover {
 #projects h2 {
   text-align: center;
   color: grey;
-  animation: fade_anim 7s ease-in-out infinite;
+  animation: fade_anim 3s ease-in infinite;
 }
 
 @keyframes fade_anim {
   50% {
-    color: white;
+    color: darkgray;
   }
   100% {
     color: grey;
+  }
+}
+.item-1,
+.item-2,
+.item-3 {
+  position: absolute;
+  display: block;
+  width: 40%;
+  left: 0;
+  font-size: 1.1em;
+  animation-duration: 20s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.item-1 {
+  animation-name: anim-1;
+}
+
+.item-2 {
+  animation-name: anim-2;
+}
+
+.item-3 {
+  animation-name: anim-3;
+}
+@keyframes anim-1 {
+  0%,
+  8.3% {
+    opacity: 0;
+  }
+  8.3%,
+  25% {
+    opacity: 1;
+  }
+  33.33%,
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes anim-2 {
+  0%,
+  33.33% {
+    opacity: 0;
+  }
+  41.63%,
+  58.29% {
+    opacity: 1;
+  }
+  66.66%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes anim-3 {
+  0%,
+  66.66% {
+    opacity: 0;
+  }
+  74.96%,
+  91.62% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }

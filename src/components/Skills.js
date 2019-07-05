@@ -5,56 +5,29 @@ const Skills = () => (
     <h2 id="skills-phrase">Some Phrase</h2>
     <div className="section-container">
       <div id="features">
-        <div>
-          <h4>WELL DESIGNED</h4>
+        <div className="item-1">
+          <p>WELL-DESIGNED</p>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+          </p>
+        </div>
+
+        <div className="item-2">
+          <p>SCALABLE</p>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
+            ever since the 1500s,
           </p>
         </div>
-        <div>
-          <h4>TESTABLE</h4>
+
+        <div className="item-3">
+          <p>RESPONSIVE</p>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of typee
-            like Aldus PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-        <div>
-          <h4>SCALABLE</h4>
-          <p>
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-        <div>
-          <h4>CROSS-PLATFORM</h4>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-        <div>
-          <h4>RESPONSIVE</h4>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-          </p>
-        </div>
-        <div>
-          <h4>SECURE</h4>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
           </p>
         </div>
       </div>
