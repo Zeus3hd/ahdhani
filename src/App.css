@@ -142,15 +142,13 @@ nav ul li a:hover {
   justify-content: center;
 }
 .projects-container div {
-  width: 25%;
+  width: 30%;
   align-items: center;
   text-align: justify;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-  padding: 20px;
   color: grey;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   margin: 10px;
   align-self: center;
 }
@@ -160,198 +158,12 @@ nav ul li a:hover {
   padding: 0;
 }
 .projects-container div p {
-  width: 100%;
-  padding: 2px;
-}
-/*
-#header-component {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-}
-
-#landing-content {
-  display: flex;
-  flex-direction: row-reverse;
-  align-content: space-between;
-  margin-left: 40px;
-}
-
-#landing-content p {
-  align-self: center;
-  text-align: justify;
-  font-size: 18px;
-  color: #757575;
-  background: linear-gradient(-45deg, #d35585, #b16957, #2098c4, #1ead8c);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: saturate(0%);
-  filter: hue-rotate(0);
-  animation: anim 15s infinite;
-  margin: 5px;
-}
-#header-img {
-  width: 50%;
-  filter: saturate(0%);
-  filter: hue-rotate(0);
-  animation: anim 10s infinite;
-}
-
-@keyframes anim {
-  50% {
-    filter: saturate(100%);
-    filter: hue-rotate(360deg);
-  }
-  100% {
-    filter: saturate(50%);
-    filter: hue-rotate(0);
-  }
-}
-
-.container {
-  position: absolute;
-  display: flex;
-  width: 60%;
-  list-style: none;
-}
-.container > li {
-  flex: 1;
-  text-transform: uppercase;
-}
-.container li a {
-  transition: 0.3s;
-  border-top: 1px solid rgba(0, 0, 0, 0);
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-}
-.container li a:hover {
-  color: #d35585;
-  border-top: 1px solid #d35585;
-  border-bottom: 1px solid #d35585;
-}
-
-#rect-top {
-  width: 600px;
-  height: 150px;
-  margin: auto;
-  margin-bottom: 20px;
-  transform: translate(-100px, 20px);
-  border: 1px solid #b16957;
-  filter: saturate(0%);
-  filter: hue-rotate(0);
-  animation: anim 5s infinite;
-}
-
-#rect-bottom {
-  width: 600px;
-  height: 150px;
-  margin: auto;
-  margin-bottom: 20px;
-  transform: translate(50px, -90px);
-  border: 1px solid #b16957;
-  filter: saturate(0%);
-  filter: hue-rotate(0);
-  animation: anim 5s infinite;
-}
-#rect-bottom h2 {
-  margin-left: 10px;
-  margin-top: -15px;
-  background: linear-gradient(-45deg, #d35585, #91898c);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-#rect-bottom p {
-  margin-left: 10px;
-  background: linear-gradient(-45deg, #d35585, #91898c);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.section-container {
-  display: flex;
-  flex-direction: row;
-  margin: 20px;
-}
-#features {
-  flex: 1;
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-}
-#features div {
-  width: 29%;
-  text-align: justify;
-  margin: 5px;
-  margin-bottom: 0;
-  margin-top: 0;
+  width: 90%;
   padding: 5px;
-  color: grey;
+  margin: 5px;
 }
-#features h4 {
+
+#projects h2 {
   text-align: center;
-}
-#stack {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-}
-
-#stack div {
-  display: flex;
-  width: 33%;
-}
-
-#stack div img {
-  width: 50%;
-}
-
-#stack div {
-  flex-direction: column;
-  align-items: center;
-}
-
-#stack div p {
   color: grey;
-  text-transform: uppercase;
 }
-
-#projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.projects-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-}
-
-.projects-container div {
-  display: flex;
-  align-content: center;
-  width: 33%;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: justify;
-  margin: 10px;
-  padding: 10px;
-}
-.projects-container div strong {
-  margin: 5px;
-  padding: 5px;
-}
-.projects-container div p {
-  margin: 5px;
-  padding: 5px;
-}
-
-.projects-container div img {
-  width: 70%;
-} */
