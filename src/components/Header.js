@@ -26,25 +26,3 @@ const Header = () => (
 );
 
 export default Header;
-
-// {      <img
-//   src={require("../assets/imgs/icons8-github-500.png")}
-//   alt="testpic"
-// />
-
-// <img
-//   src={require("../assets/imgs/icons8-facebook-500.png")}
-//   alt="testpic"
-// />
-
-// <img src={require("../assets/imgs/icons8-gmail-500.png")} alt="testpic" />
-
-// <img
-//   src={require("../assets/imgs/icons8-github-500.png")}
-//   alt="testpic"
-// />
-
-// <img
-//   src={require("../assets/imgs/icons8-github-500.png")}
-//   alt="testpic"
-// />}

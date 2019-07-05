@@ -5,7 +5,7 @@ const Logo = () => (
     <div id="rect-top" />
     <div id="rect-bottom">
       <p>Hi, I'm Ahd Hani</p>
-      <h2>I'M A SOFTWARE DEVELOPER</h2>
+      <h2>I'M A SOFTWARE / WEBAPP DEVELOPER</h2>
     </div>
   </div>
 );

@@ -12,6 +12,9 @@ const Navbar = () => (
       <li>
         <a href="https://wwww.google.com">My work</a>
       </li>
+      <li>
+        <a href="https://wwww.google.com">RESUME</a>
+      </li>
     </ul>
   </nav>
 );

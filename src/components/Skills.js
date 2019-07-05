@@ -23,7 +23,7 @@ const Skills = () => (
           </p>
         </div>
         <div>
-          <h4>SCALABLE</h4>{" "}
+          <h4>SCALABLE</h4>
           <p>
             remaining essentially unchanged. It was popularised in the 1960s
             with the release of Letraset sheets containing Lorem Ipsum passages,
@@ -32,7 +32,7 @@ const Skills = () => (
           </p>
         </div>
         <div>
-          <h4>CROSS-PLATFORM</h4>{" "}
+          <h4>CROSS-PLATFORM</h4>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             with the release of Letraset sheets containing Lorem Ipsum passages,
@@ -41,7 +41,7 @@ const Skills = () => (
           </p>
         </div>
         <div>
-          <h4>RESPONSIVE</h4>{" "}
+          <h4>RESPONSIVE</h4>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -49,7 +49,7 @@ const Skills = () => (
           </p>
         </div>
         <div>
-          <h4>SECURE</h4>{" "}
+          <h4>SECURE</h4>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -57,7 +57,6 @@ const Skills = () => (
           </p>
         </div>
       </div>
-      <hr />
       <div id="stack">
         <div>
           <img
