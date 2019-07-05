@@ -106,6 +106,7 @@ nav ul li a:hover {
 #stack {
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
 }
 #stack div {
   width: 33%;
@@ -118,14 +119,50 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   border-right: 1px solid rgb(150, 150, 150);
+  align-content: center;
 }
 #features div {
   width: 33%;
   text-align: justify;
   padding: 20px;
   box-sizing: border-box;
+  align-self: center;
+}
+#skills-phrase {
+  text-align: center;
+  color: grey;
+  text-transform: uppercase;
 }
 
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 15px;
+  justify-content: center;
+}
+.projects-container div {
+  width: 25%;
+  align-items: center;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  color: grey;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin: 10px;
+  align-self: center;
+}
+.projects-container div img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.projects-container div p {
+  width: 100%;
+  padding: 2px;
+}
 /*
 #header-component {
   display: flex;

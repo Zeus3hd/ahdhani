@@ -2,6 +2,7 @@ import React from "react";
 
 const Skills = () => (
   <div className="skills-container">
+    <h2 id="skills-phrase">Some Phrase</h2>
     <div className="section-container">
       <div id="features">
         <div>
