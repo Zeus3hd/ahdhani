@@ -71,17 +71,7 @@ a {
     filter: hue-rotate(0);
   }
 }
-.item-1 {
-  animation-name: anim-1;
-}
 
-.item-2 {
-  animation-name: anim-2;
-}
-
-.item-3 {
-  animation-name: anim-3;
-}
 .logo-container {
   margin: auto;
   padding: 1px;
@@ -92,7 +82,36 @@ a {
   margin-bottom: 5px;
   color: darkgrey;
 }
+.skill-box {
+  position: relative;
+}
+.item-1,
+.item-2,
+.item-3 {
+  position: relative;
+  left: -100%;
+  transition: 2s;
+  margin: 0 10px;
+  animation: show 10s infinite ease-in-out;
+}
+.item-1 {
+  animation-delay: 0;
+}
+.item-2 {
+  animation-delay: 2s;
+}
+.item-3 {
+  animation-delay: 4s;
+}
 
+@keyframes show {
+  50% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
 /* nav ul {
   list-style: none;
 
