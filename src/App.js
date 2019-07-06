@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Logo />
       <Skills />
-      <Projects />
+      {/* <Projects />*/}
     </div>
   );
 }
