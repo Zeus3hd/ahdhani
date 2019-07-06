@@ -84,6 +84,11 @@ a {
 }
 .skill-box {
   position: relative;
+  overflow: hidden;
+  color: grey;
+}
+.skill-box h5 {
+  text-transform: uppercase;
 }
 .item-1,
 .item-2,
@@ -107,9 +112,11 @@ a {
 @keyframes show {
   50% {
     left: 0;
+    opacity: 1;
   }
   100% {
     left: 100%;
+    opacity: 0;
   }
 }
 /* nav ul {
