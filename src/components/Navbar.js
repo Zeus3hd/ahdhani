@@ -4,6 +4,17 @@ export default class Navbar extends React.Component {
   state = {
     menu: false
   };
+  componentDidMount() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    });
+  }
 
   menu = () => {
     this.setState(prevState => {
@@ -15,22 +26,22 @@ export default class Navbar extends React.Component {
   render() {
     return (
       <div className="nav-bar">
-        <a id="menu-button" href="#none" onClick={this.menu}>
+        <button id="menu-button" href="#none" onClick={this.menu}>
           <img src={require("../assets/imgs/menu.svg")} alt="menu" />
-        </a>
+        </button>
         <nav id={this.state.menu ? "navbar-show" : ""}>
           <ul>
             <li>
-              <a href="#Home">HOME</a>
+              <a href="#landing-content">HOME</a>
             </li>
             <li>
-              <a href="stack">STACK/SKILLS</a>
+              <a href="#mystack">STACK/SKILLS</a>
             </li>
             <li>
-              <a href="work">MY WORK</a>
+              <a href="#projects">MY WORK</a>
             </li>
             <li>
-              <a href="contact">CONTACT</a>
+              <a href="#contact">CONTACT</a>
             </li>
           </ul>
         </nav>
