@@ -4,16 +4,16 @@ const Skills = () => (
   <div className="skill-box">
     <div className="skills-container">
       <div className="item-1">
-        <h5>Test Skill</h5>
-        <p>Some Explanation for dem skill</p>
+        <h5>RESPONSIBLE</h5>
+        <p>Following conventions, standards and best practices</p>
       </div>
       <div className="item-2">
-        <h5>Skill Test</h5>
-        <p>i got nothing to say about this</p>
+        <h5>TESTABLE</h5>
+        <p>Test driven code, more tests = less bugs</p>
       </div>
       <div className="item-3">
-        <h5>hakuna matata</h5>
-        <p>use your fucking imagination</p>
+        <h5>SCALABLE/CROSS-PLATFORM</h5>
+        <p>Adequate for different environments,sizes and platforms.</p>
       </div>
     </div>
     <p id="mystack">MY STACK</p>

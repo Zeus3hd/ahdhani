@@ -8,12 +8,13 @@ const Header = () => (
       alt="testpic"
     />
     <p>
-      There are many variations of passages of Lorem Ipsum available, but the
-      majority have suffered alteration in some form, by injected humour, or
-      randomised words which don't look even slightly believable. If you are
-      going to use a passage of Lorem Ipsum, you need to be sure there isn't
-      anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-      generators.
+      I'll keep it simple; I love programming and I'm proud of being a
+      programmer. I enjoy the puzzles the field offers and solving them feels so
+      rewarding. I will write a well designed, testable and efficient code to
+      create a scalable cross-platform responsive and secure webapps from
+      concepts all the way to completion; fashioning everything from the
+      homepage to layout and functionalities using many modern technologies and
+      tools
     </p>
   </div>
 );
