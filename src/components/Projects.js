@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => (
   <div id="projects">
-    <h2>I take pride in what I do</h2>
+    <p>I take pride in what I do</p>
     <div className="projects-container">
       <div id="project1">
         <img src={require("../assets/imgs/project1.jpeg")} alt="projects-img" />

@@ -29,6 +29,7 @@ a {
   padding: 0;
   margin: 50px 20px;
   text-align: justify;
+  color: rgba(20, 20, 20, 0.7);
 }
 .nav-bar nav ul li {
   margin: 15px 0;
@@ -89,6 +90,8 @@ a {
 }
 .skill-box h5 {
   text-transform: uppercase;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.5);
+  width: 40%;
 }
 .item-1,
 .item-2,
@@ -118,6 +121,64 @@ a {
     left: 100%;
     opacity: 0;
   }
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: grey;
+  text-align: justify;
+}
+.projects-container div {
+  width: 90%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 20px 0;
+}
+.projects-container div img {
+  width: 100%;
+}
+.projects-container div strong {
+  margin: 5px;
+  padding: 5px;
+}
+.projects-container div p {
+  margin: 5px;
+  padding: 5px;
+}
+#projects > p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  color: darkgrey;
+  animation: animate_phrase 2s infinite ease-in-out;
+}
+
+@keyframes animate_phrase {
+  50% {
+    color: lightgrey;
+  }
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.stack div {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stack div img {
+  width: 60%;
+}
+
+#mystack {
+  text-align: center;
+  margin: 50px;
 }
 /* nav ul {
   list-style: none;
